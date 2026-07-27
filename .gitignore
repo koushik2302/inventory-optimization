@@ -1,0 +1,26 @@
+# Data (raw/cleaned datasets, DB files, logs) - too large for git, regenerate via scripts/
+data/
+*.db
+*.duckdb
+*.duckdb.wal
+
+# Installers / large binaries
+*.exe
+
+# Temp files
+.tmp/
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Claude Code settings
+.claude/settings.local.json

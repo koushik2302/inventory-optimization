@@ -1,0 +1,26 @@
+name: inv-opt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - scipy>=1.11
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - plotly>=5.15
+  - sqlalchemy>=2.0
+  - openpyxl>=3.1
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+    - streamlit>=1.28
+    - ollama>=0.1.7
+    - kaggle>=1.6
+    - streamlit-chat
+    - streamlit-aggrid
+    - plotly-express
