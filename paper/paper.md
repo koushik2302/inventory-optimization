@@ -439,9 +439,47 @@ Series Forecasting" competitions).
 
 ## References
 
-*(Placeholder — to be completed with formal citations before submission.
-Candidate anchors: Silver, Pyke & Peterson on inventory theory;
-foundational ABC/Pareto-analysis literature; XYZ/coefficient-of-variation
-segmentation literature; Syntetos & Boylan on intermittent demand;
-prior ABC-XYZ empirical case studies for direct comparison against this
-paper's small-sample replication.)*
+Dickie, H. F. (1951). ABC inventory analysis shoots for dollars, not
+pennies. *Factory Management and Maintenance*, 109(7), 92–94. — Earliest
+published statement of the ABC/Pareto inventory-value classification used
+in Section 2.
+
+Flores, B. E., & Whybark, D. C. (1986). Multiple criteria ABC analysis.
+*International Journal of Operations & Production Management*, 6(3),
+38–46. — Foundational treatment of combining a value-based criterion (ABC)
+with a second classification axis, the structural template this paper's
+ABC-XYZ matrix follows.
+
+Silver, E. A., Pyke, D. F., & Peterson, R. (1998). *Inventory management
+and production planning and scheduling* (3rd ed.). John Wiley & Sons. —
+Standard inventory-theory reference for the safety-stock and
+service-level formulas (Section 3) this paper's differentiated-policy
+comparison is built on.
+
+Syntetos, A. A., & Boylan, J. E. (2001). On the bias of intermittent
+demand estimates. *International Journal of Production Economics*, 71(1–3),
+457–466.
+
+Syntetos, A. A., & Boylan, J. E. (2005). The accuracy of intermittent
+demand estimates. *International Journal of Forecasting*, 21(2), 303–314.
+— Together, the method this paper flags (Section 6, Limitations) as the
+appropriate refinement for Z-class, intermittent-demand SKUs in place of
+the constant safety-factor approach used here.
+
+Trubchenko, T. G., Kiseleva, E. S., Loshchilova, M. A., Dreval, A. N.,
+Ryzhakina, T. G., & Shaftelskaya, N. V. (2020). Application of ABC and
+XYZ analysis to inventory optimization at a commercial enterprise. *SHS
+Web of Conferences*, 80, 01007.
+https://doi.org/10.1051/shsconf/20208001007 — A direct single-enterprise
+ABC-XYZ case study, offered as a comparison point for the small-sample
+condition in Section 5 rather than as evidence for the population-scale
+finding, which this paper argues is a separate, granularity-driven
+result.
+
+**Note on XYZ/coefficient-of-variation segmentation:** unlike ABC
+analysis, X/Y/Z demand-variability classification does not trace to a
+single canonical publication — it is standard operations-research and
+industrial-engineering practice (see Trubchenko et al., 2020, and the
+practitioner literature it cites) rather than one originating paper, so
+no single source is listed for it here; that absence is deliberate, not
+an oversight.
