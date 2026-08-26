@@ -24,3 +24,6 @@ Thumbs.db
 
 # Local Claude Code settings
 .claude/settings.local.json
+CHANGELOG.md
+PIPELINE_LOG.md
+PROJECT_SUMMARY.md
