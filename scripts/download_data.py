@@ -113,7 +113,7 @@ def download_dataset() -> bool:
 
     try:
         os.system(
-            f'C:\\Users\\chunc\\anaconda3\\python.exe -m kaggle competitions download '
+            f'"{sys.executable}" -m kaggle competitions download '
             f'-c {KAGGLE_COMPETITION} -p "{RAW_DATA_DIR}"'
         )
         return True

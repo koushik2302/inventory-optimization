@@ -1,7 +1,9 @@
 import sqlite3
 import time
+from pathlib import Path
 
-db_path = "D:/CS (2)/PES/Projects/inventory-optimization/data/inventory.db"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+db_path = PROJECT_ROOT / "data" / "inventory.db"
 print("Connecting to database...")
 conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
